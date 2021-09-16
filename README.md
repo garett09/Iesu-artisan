@@ -21,11 +21,11 @@
 
 ## Initialize the project
 
-If you haven't yet successfully downloaded the source make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "devices/" | relative_url }}).
+If you haven't yet successfully downloaded the source make sure you are familiar with those steps.
 
 Setup an account on [Gerrit](https://review.gerrithub.io) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 
-{% include alerts/important.html content="Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent." %}
+`Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent.`
 
 Now make sure your local git username matches with your Gerrit username:
 
@@ -34,7 +34,7 @@ git config --global user.email 'you@yourDomain.com'
 git config --global review.review.gerrithub.io.username "gerritUsername"
 ```
 
-{% include alerts/note.html content="Your Gerrit username is case-sensitive." %}
+`Your Gerrit username is case-sensitive.`
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
@@ -66,7 +66,7 @@ First, you need to start a topic branch. This branch holds the changes you make 
 git clone "https://review.gerrithub.io/garett09/Iesu-artisan" && (cd "Iesu-artisan" && mkdir -p .git/hooks && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg https://review.gerrithub.io/tools/hooks/commit-msg; chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
 ```
 
-{% include alerts/note.html content="This starts a new branch called `<branch name>` in the `<project path>` project. Replace `<project path>` with the path of your target repository instead." %}
+This starts a new branch called `<branch name>` in the `<project path>` project. Replace `<project path>` with the path of your target repository instead.
 
 Change to the project (directory) that contains the file(s) you want to edit:
 
@@ -76,7 +76,7 @@ cd Iesu-artisan
 
 Do all the changes you need.
 
-{% include alerts/warning.html content="Make sure you do not commit any changes before you run `git checkout main`, otherwise your changes will happen on a different branch and will not be tracked correctly." %}
+**Note:** Make sure you do not commit any changes before you run `git checkout main`, otherwise your changes will happen on a different branch and will not be tracked correctly.
 
 After you make your changes, you can commit them just as you normally would:
 
@@ -87,7 +87,7 @@ git commit -m ""
 
 Alternatively you can run `git add .` to stage all changes.
 
-{% include alerts/tip.html content="The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars." %}
+`The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars.`
 
 Now you can upload your changes to Gerrit:
 
@@ -171,7 +171,7 @@ You should be asked a few questions and your commit should then be uploaded to G
 
 ### Troubleshooting {#TroubleshootingTag}
 
-<sup>[1]</sup> If you get a "Permission denied (publickey)" error and you're sure that everything is right, try using a DSA key instead of RSA.
+If you get a "Permission denied (publickey)" error and you're sure that everything is right, try using a DSA key instead of RSA.
 
 ```
 ssh-keygen -t dsa -C "your@email.com"
@@ -187,7 +187,7 @@ To make sure they get informed:
 - For project repos, add the Project manager.
   - It is important to submit quality code prior to reviewing. If not approved, kindly resubmit a patch.
 
-2. Set the [proper labels]({{ "how-to/using-gerrit#reviewing-a-patch" | relative_url }}) to indicate your patch is ready
+1. Set the proper labels to indicate your patch is ready.
 
 ## Common commands
 
