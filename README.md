@@ -187,7 +187,7 @@ To make sure they get informed:
 - For project repos, add the Project manager.
   - It is important to submit quality code prior to reviewing. If not approved, kindly resubmit a patch.
 
-1. Set the proper labels to indicate your patch is ready.
+2. Set the proper labels to indicate your patch is ready.
 
 ## Common commands
 
