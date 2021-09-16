@@ -187,7 +187,7 @@ To make sure they get informed:
 - For project repos, add the Project manager.
   - It is important to submit quality code prior to reviewing. If not approved, kindly resubmit a patch.
 
-1. Set the proper labels to indicate your patch is ready.
+2. Set the proper labels to indicate your patch is ready.
 
 ## Common commands
 
@@ -211,11 +211,11 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
   Examples:
 
-  - RFC 2822: Wed, 17 Jan 2018 17:39:48 +0100
+  - RFC 2822: Thu, 16 Sept 2021 17:39:48 +0800
 
-  - ISO 8601: 2018-01-17T17:39:48+0100
+  - ISO 8601: 2021-09-16T17:39:48+0800
 
-  - git internal format: 1516210788 +0100
+  - git internal format: 1516210788 +0800
 
 - `--author="NAME <EMAIL>"` to name the author if you did not write the patch yourself.
 
