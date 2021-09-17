@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a96576ec_42d13229",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019419
+      },
+      "writtenOn": "2021-09-17T02:28:32Z",
+      "side": 1,
+      "message": "Added my name on Gerrit para hindi mahirapan yung mga project contributors. Kindly check nalang front end dev and back end dev. thx",
+      "revId": "fe3d522f9e3e736cbbc1e04cef598ff1b67db041",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
