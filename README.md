@@ -1,4 +1,4 @@
-# Iesu-artisan by Team Sian | Notes
+# Iesu-artisan by Team Sian | README
 
 ## Project description
 
@@ -25,7 +25,7 @@ If you haven't yet successfully downloaded the source make sure you are familiar
 
 Setup an account on [Gerrit](https://review.gerrithub.io) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 
-`Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent.`
+**❗ IMPORTANT**: *Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent.*
 
 Now make sure your local git username matches with your Gerrit username:
 
@@ -34,7 +34,7 @@ git config --global user.email 'you@yourDomain.com'
 git config --global review.review.gerrithub.io.username "gerritUsername"
 ```
 
-`Your Gerrit username is case-sensitive.`
+**❕  NOTE**: *Your Gerrit username is case-sensitive.*
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
@@ -66,7 +66,7 @@ First, you need to start a topic branch. This branch holds the changes you make 
 git clone "https://review.gerrithub.io/garett09/Iesu-artisan" && (cd "Iesu-artisan" && mkdir -p .git/hooks && curl -Lo `git rev-parse --git-dir`/hooks/commit-msg https://review.gerrithub.io/tools/hooks/commit-msg; chmod +x `git rev-parse --git-dir`/hooks/commit-msg)
 ```
 
-This starts a new branch called `<branch name>` in the `<project path>` project. Replace `<project path>` with the path of your target repository instead.
+**❕  NOTE**: *This starts a new branch called `<branch name>` in the `<project path>` project. Replace `<project path>` with the path of your target repository instead.*
 
 Change to the project (directory) that contains the file(s) you want to edit:
 
@@ -76,18 +76,18 @@ cd Iesu-artisan
 
 Do all the changes you need.
 
-**Note:** Make sure you do not commit any changes before you run `git checkout main`, otherwise your changes will happen on a different branch and will not be tracked correctly.
+**⚠️ WARNING**: *Make sure you do not commit any changes before you run `git checkout main`, otherwise your changes will happen on a different branch and will not be tracked correctly.*
 
 After you make your changes, you can commit them just as you normally would:
 
 ```
 git add <file you edited>
-git commit -m ""
+git commit
 ```
 
 Alternatively you can run `git add .` to stage all changes.
 
-`The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars.`
+**✔️ TIP**: *The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars.*
 
 Now you can upload your changes to Gerrit:
 
@@ -95,7 +95,7 @@ Now you can upload your changes to Gerrit:
 git push origin HEAD:refs/for/main
 ```
 
-That's it! Your change will be reviewed and may be accepted or rejected. See [#Example_cases](#ExampleCasesTag) below for an example.
+That's it! Your change will be reviewed and may be accepted or rejected. See [#Example_Cases] below for an example.
 
 ### Submitting patch sets
 
@@ -132,9 +132,9 @@ Finally, you can submit your patch set to your initial patch by typing:
 git push origin HEAD:refs/for/main
 ```
 
-### Example cases {#ExampleCasesTag}
+### Example cases
 
-#### Edit `index.html`
+#### Edit `script.js`
 
 Let's say you want to make a change in `script.js` that resides in the `js` project, and upload that to Gerrit for review. Start a local branch of that repo (directory) and call it `mychanges`:
 
@@ -146,13 +146,13 @@ git branch mychanges
 Make the edits to that file. You can check those changes:
 
 ```
-git add index.html -n
+git add script.js -n
 ```
 
 If the results are acceptable, stage the modified file:
 
 ```
-git add index.html
+git add script.js
 ```
 
 Then commit it:
@@ -169,7 +169,7 @@ git push origin HEAD:refs/for/main
 
 You should be asked a few questions and your commit should then be uploaded to Gerrit for review.
 
-### Troubleshooting {#TroubleshootingTag}
+### Troubleshooting
 
 If you get a "Permission denied (publickey)" error and you're sure that everything is right, try using a DSA key instead of RSA.
 
