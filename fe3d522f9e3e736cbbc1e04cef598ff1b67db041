@@ -16,6 +16,23 @@
       "message": "Added my name on Gerrit para hindi mahirapan yung mga project contributors. Kindly check nalang front end dev and back end dev. thx",
       "revId": "fe3d522f9e3e736cbbc1e04cef598ff1b67db041",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a87769c4_2b592566",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019442
+      },
+      "writtenOn": "2021-09-17T03:28:05Z",
+      "side": 1,
+      "message": "looks good",
+      "revId": "fe3d522f9e3e736cbbc1e04cef598ff1b67db041",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
