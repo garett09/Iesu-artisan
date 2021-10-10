@@ -16,6 +16,23 @@
       "message": "pls review",
       "revId": "5d6f5783694abb734d36d6864ada8f8f81df2e60",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9edd5839_e4f3b06d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019419
+      },
+      "writtenOn": "2021-10-10T05:15:09Z",
+      "side": 1,
+      "message": "looks good to me. deployed on a test website server and is working perfectly. just change the pictures because they look distorted.",
+      "revId": "5d6f5783694abb734d36d6864ada8f8f81df2e60",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
