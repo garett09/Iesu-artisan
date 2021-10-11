@@ -426,7 +426,7 @@ section{
     transition: var(--transition);
 }
 .show-faq-content{
-    height: 168px;
+    height: 70px;
     padding: 0.6rem 1.8rem;
 }
 
