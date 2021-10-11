@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Iesu Artisan</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="assets/logo.jpg">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="resources/style.css" />
+    <!-- font -->
+    <link rel="stylesheet" href="resources/font.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- magnific popup -->
+    <link
+      rel="stylesheet"
+      href="resources/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css"
+    />
+    <!-- animate css -->
+    <link rel="stylesheet" href="resources/animate.css-main/animate.css" />
+    <!-- custom (main) css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="intro">
+      <div class="wow bounceInUp">
+      <nav class="navbar">
+        <div class="container">
+          <div class="brand-and-toggler">
+            <a href="index.html" class="navbar-brand"> IESU ARTISAN  </a>
+            <button type="button" class="navbar-toggler" id="navbar-toggler">
+             <div>
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">HOME</a>
+              </li>
+              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <!-- end of header -->
+        <!-- survey -->
+        <section class="testimonial" id="testimonial">
+          <div class="container">
+            <div class="title">
+              <h2 class="wow animate__animated animate__bounceIn animate__slow">
+                Services feedback
+              </h2>
+              <p class="text">
+                We value the feedbacks of our customers because we believe that this
+                is the key to our constant improvement for everyone's convinience
+                and experience.
+              </p>
+            </div>
+            <div class="wrap">
+              <form action="">
+                <label class="statement">How will you rate the products you received?</label>
+                <ul class='likert'>
+                  <li>
+                    <a href= "index.html" class="surveyimg"><img src="assets/good.png" class="surveyimg" alt="LOGO"></a>
+                    <input type="radio" name="likert" value="GOOD">
+                    <label>GOOD</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="likert" value="FAIR">
+                    <label>FAIR</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="likert" value="BAD">
+                    <label>BAD</label>
+                  </li>
+                </ul>
+                <label class="statement">How satisfied are you with our products?</label>
+                <ul class='likert'>
+                <li>
+                  <input type="radio" name="likert" value="GOOD">
+                  <label>GOOD</label>
+                </li>
+                <li>
+                  <input type="radio" name="likert" value="FAIR">
+                  <label>FAIR</label>
+                </li>
+                <li>
+                  <input type="radio" name="likert" value="BAD">
+                  <label>BAD</label>
+                </li>
+              </ul>
+                <label class="statement">How satisfied are you with the service provided</label>
+                <ul class='likert'>
+                  <li>
+                    <input type="radio" name="likert" value="GOOD">
+                    <label>GOOD</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="likert" value="FAIR">
+                    <label>FAIR</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="likert" value="BAD">
+                    <label>BAD</label>
+                  </li>
+                </ul>
+                <div
+                class="
+                  row
+                  owl-carousel owl-theme
+                  wow
+                  animate__animated animate__fadeInUp animate__slow
+                "
+              >
+              <div
+              class="hero-btns animate__animated animate__fadeInUp animate__slow">
+                <button
+                type="button"
+                class="btn-white"
+                value="Input Button"
+                onclick=" clickSURVEY()">SUBMIT</button>
+              <script>
+                function clickSURVEY() {
+                  location.href = "survey.html";
+                }
+              </script>
+              
+            </div>
+                
+              </div>
+              </form>
+            </div>
+           
+          </div>
+        </section>
+        <!-- end of survey section -->
+
+       <!-- footer -->
+    <footer class="footer center">
+        <div class="container">
+          <p class="text">
+            © 2021 AFK Hotel Developed by TEAM SIAN. All Rights
+                    Reserved.
+          </p>
+        </div>
+      </footer>
+      <!-- end of footer -->
+  
+      <!-- jQuery -->
+      <script src="resources/jquery-3.5.1.js"></script>
+      <!-- magnific popup -->
+      <script src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+      <!-- owl carousel -->
+      <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+      <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+      <!-- wow js -->
+      <script src="resources/WOW-master/dist/wow.js"></script>
+      <!-- custom js -->
+      <script src="js/script.js"></script>
+      <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "622a1a960e1146b6beae7a182fcd6faf"}'></script><!-- End Cloudflare Web Analytics -->
+    </body>
+  </html>
+  
