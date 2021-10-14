@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1387c868_371f0c49",
+        "filename": "css/main.css",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1019419
+      },
+      "writtenOn": "2021-10-14T03:24:31Z",
+      "side": 1,
+      "message": "paayos nalang ng mga blank spaces na di needed.",
+      "revId": "45f26d9998825ab690e658366799dd1147fcd79f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1c71b883_6819c4f6",
         "filename": "survey.html",
         "patchSetId": 1
