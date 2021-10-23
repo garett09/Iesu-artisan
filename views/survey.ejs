@@ -58,7 +58,7 @@
           <div class="navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="index.html" class="nav-link">HOME</a>
+                <a href="/" class="nav-link">HOME</a>
               </li>
               
               </li>
@@ -81,22 +81,22 @@
               </p>
             </div>
             <div class="wrap">
-              <form action="">
+              <form action="" method = "POST">
                 <label class="statement">How will you rate the products you received?</label>
                 <ul class='likert'>
                   <li class="wow animate__animated animate__bounceIn animate__slow">
                     <a class="surveyimg"><img src="assets/good.png" alt="LOGO"></a>
-                    <input type="radio" name="likert" value="GOOD">
+                    <input type="radio" name="likert" value="GOOD" id="f1">
                     <label>GOOD</label>
-                  </li>
+                  </li> 
                   <li li class="wow animate__animated animate__bounceIn animate__slow">
                     <a class="surveyimg"><img src="assets/fair.png" alt="LOGO"></a>
-                    <input type="radio" name="likert" value="FAIR">
+                    <input type="radio" name="likert" value="FAIR" id="f1">
                     <label>FAIR</label>
                   </li>
                   <li class="wow animate__animated animate__bounceIn animate__slow">
                     <a class="surveyimg"><img src="assets/bad.png" alt="LOGO"></a>
-                    <input type="radio" name="likert" value="BAD">
+                    <input type="radio" name="likert" value="BAD" id="f1">
                     <label>BAD</label>
                   </li>
                 </ul>
@@ -104,17 +104,17 @@
                 <ul class='likert'>
                 <li class="wow animate__animated animate__bounceIn animate__slow">
                   <a class="surveyimg"><img src="assets/good.png" alt="LOGO"></a>
-                  <input type="radio" name="likert" value="GOOD">
+                  <input type="radio" name="likert1" value="GOOD" id="f2">
                   <label>GOOD</label>
                 </li>
                 <li class="wow animate__animated animate__bounceIn animate__slow">
                   <a class="surveyimg"><img src="assets/fair.png" alt="LOGO"></a>
-                  <input type="radio" name="likert" value="FAIR">
+                  <input type="radio" name="likert1" value="FAIR" id="f2">
                   <label>FAIR</label>
                 </li>
                 <li class="wow animate__animated animate__bounceIn animate__slow">
                   <a class="surveyimg"><img src="assets/bad.png" alt="LOGO"></a>
-                  <input type="radio" name="likert" value="BAD">
+                  <input type="radio" name="likert1" value="BAD" id="f2">
                   <label>BAD</label>
                 </li>
               </ul>
@@ -122,20 +122,19 @@
                 <ul class='likert'>
                   <li class="wow animate__animated animate__bounceIn animate__slow">
                     <a class="surveyimg"><img src="assets/good.png" alt="LOGO"></a>
-                    <input type="radio" name="likert" value="GOOD">
+                    <input type="radio" name="likert2" value="GOOD" id="f3">
                     <label>GOOD</label>
                   </li>
                   <li class="wow animate__animated animate__bounceIn animate__slow">
                     <a class="surveyimg"><img src="assets/fair.png" alt="LOGO"></a>
-                    <input type="radio" name="likert" value="FAIR">
+                    <input type="radio" name="likert2" value="FAIR" id="f3">
                     <label>FAIR</label>
                   </li>
                   <li class="wow animate__animated animate__bounceIn animate__slow">
                     <a class="surveyimg"><img src="assets/bad.png" alt="LOGO"></a>
-                    <input type="radio" name="likert" value="BAD">
+                    <input type="radio" name="likert2" value="BAD" id="f3">
                     <label>BAD</label>
                   </li>
-                </ul>
                 <div
                 class="
                   row
@@ -147,7 +146,7 @@
               <div
               class="hero-btns animate__animated animate__fadeInUp animate__slow">
                 <button
-                type="button"
+                type="submit"
                 class="btn-white"
                 value="Input Button"
                 onclick=" clickSURVEY()">SUBMIT</button>
