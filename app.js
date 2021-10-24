@@ -1,7 +1,7 @@
 const express = require("express");
 const { google } = require('googleapis');
 const app = express();
-var PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public'));
