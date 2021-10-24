@@ -1,6 +1,7 @@
 const express = require("express");
 const { google } = require('googleapis');
 const app = express();
+var PORT = process.env.PORT || 5000;
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public'));
@@ -68,4 +69,4 @@ app.post("/survey", async (req, res) => {
     res.send(res.render("verification"))
 })
 
-app.listen(1337, (req, res) => console.log("Running on port 1337"))
+app.listen(PORT, (req, res) => console.log("Running on port " + PORT))
