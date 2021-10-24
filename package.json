@@ -4,7 +4,8 @@
   "description": "- A dynamic website that features semi-like e-commerce functionality. Utilizing Gerrit Code Review for our version control system.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15",
     "googleapis": "^67.1.0"
   },
   "devDependencies": {
