@@ -10,6 +10,7 @@
 - **Front-end developer** : _Aaron Karl Mayor._
 - **Back-end developer** : _Eduardo Gabriel Nacion._
 - **Database Administrator** : _Reymart Visaya._
+- **Requirements Analyst** : _Derick De Jesus._
 
 ## Changelog | Documentation
 
