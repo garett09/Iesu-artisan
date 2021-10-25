@@ -25,6 +25,7 @@
     "googleapis": "^67.1.0"
   },
   "devDependencies": {
+    "eslint": "^8.1.0",
     "nodemon": "^2.0.14"
   }
 }
