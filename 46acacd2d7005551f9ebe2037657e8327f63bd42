@@ -16,6 +16,23 @@
       "message": "please check ty",
       "revId": "46acacd2d7005551f9ebe2037657e8327f63bd42",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc721a3a_5cd6cc3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019419
+      },
+      "writtenOn": "2021-10-26T06:12:13Z",
+      "side": 1,
+      "message": "lgtm ikaw na bahala ",
+      "revId": "46acacd2d7005551f9ebe2037657e8327f63bd42",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
