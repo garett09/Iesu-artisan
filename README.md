@@ -1,4 +1,4 @@
-# Iesu-artisan by Team Sian | README
+# Iesu Artisan by Team Sian | README
 
 ## Project description
 
