@@ -19,8 +19,6 @@ app.get("/verification", (req, res) => {
   res.render("verification");
 });
 
-
-
 //survey backennd
 app.post("/survey", async (req, res) => {
   const { likert, likert1, likert2 } = req.body;
