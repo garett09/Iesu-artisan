@@ -16,6 +16,23 @@
       "message": "please cheack",
       "revId": "700c58076597afeaa3dfe9fb1b10b06412d948a7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e7fa003_5aed16c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019419
+      },
+      "writtenOn": "2021-11-02T13:10:55Z",
+      "side": 1,
+      "message": "looks good to me",
+      "revId": "700c58076597afeaa3dfe9fb1b10b06412d948a7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
