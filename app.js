@@ -2,7 +2,7 @@
 const express = require("express");
 const { google } = require("googleapis");
 const bodyParser = require("body-parser");
-const {check, validationResult} = require("express-validator");
+const { check, validationResult } = require("express-validator");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
@@ -33,7 +33,9 @@ app.post("/survey", urlencodedParser, [
 ], async (req, res) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
-    return res.status(422).jsonp(errors.array())}
+    const alert = errors.array();
+    res.render("survey", { alert });
+  }
   const { likert, likert1, likert2 } = req.body;
 
   const auth = new google.auth.GoogleAuth({
