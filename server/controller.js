@@ -21,7 +21,7 @@ exports.create = (req,res)=>{
         .then(data => {
             
             res.send(data);
-            res.render("verification");
+            res.render("/views/verification");
         })
         .catch(err =>{
             res.status(500).send({
