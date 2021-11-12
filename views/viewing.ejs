@@ -57,6 +57,7 @@
       </nav>
        <!-- end of header -->
         <!-- survey -->
+       
         <section class="testimonial" id="testimonial">
           <div class="container">
             <div class="title">
@@ -70,17 +71,27 @@
                     <th scope="col">How will you rate the products you received?</th>
                     <th scope="col">How satisfied are you with our products?</th>
                     <th scope="col">How satisfied are you with the service provided?</th>
+                   
                   </tr>
                 </thead>
                 <tbody>
+                  <% for(var i = 0; i < user.length; i++) { %>
+                    <tr>
+                        <td><%= i + 1 %></td>
+                        <td><%= user[i].feedBack1 %></td>
+                        <td><%= user[i].feedBack2 %></td>
+                        <td><%= user[i].feedBack3 %></td>
 
+                    </tr>
+                    <% } %>
                 </tbody>
               </table>
             
               
             </div>
-           
+          
           </div>
+          
         </section>
         <!-- end of survey section -->
 

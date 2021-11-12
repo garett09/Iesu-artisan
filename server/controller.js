@@ -10,17 +10,18 @@ exports.create = (req,res)=>{
 
     // new user
     const user = new UserDB({
-        feedBack1 : req.body.feedBack1,
-        feedBack2 : req.body.feedBack2,
-        feedBack3 : req.body.feedBack3,
+        feedBack1 : req.body.likert,
+        feedBack2 : req.body.likert1,
+        feedBack3 : req.body.likert2,
     })
 
     // save user in the database
     user
         .save(user)
         .then(data => {
+            
             res.send(data);
-            res.redirect("/verification");
+            res.render("verification");
         })
         .catch(err =>{
             res.status(500).send({
