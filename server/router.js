@@ -1,8 +1,8 @@
-const express = require("express");
-const route = express.Router()
+var express = require("express");
+var route = express.Router()
 
-const services = require("../server/render");
-const controller = require("../server/controller")
+var services = require("../server/render");
+var controller = require("../server/controller")
 
   route.get("/",services.homeRoutes);
 
