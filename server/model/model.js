@@ -6,6 +6,6 @@ var schema = new mongoose.Schema({
     feedBack3: String,
 });
 
-var UserDB = mongoose.model("userdb",schema);
+var UserDB = mongoose.model("userdb", schema);
 
 module.exports = UserDB;
