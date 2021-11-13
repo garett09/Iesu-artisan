@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 30px;
     opacity:1;
     font-weight: 100;
-    text-transform: capitalize;
+  
     font-size: 20px;
 }
 .center{
@@ -174,12 +174,14 @@ section{
     text-align: center;
     padding-bottom: 80px;
     padding-top: 80px;
+   
 }
 .hero-btns button{
     border: 3.5px solid #fff;
     border-radius: 2rem;
     padding: 0.8rem 2rem;
     text-transform: uppercase;
+    
 }
 .btn-trans{
     color: #fff;
@@ -194,6 +196,7 @@ section{
     background: #fff;
     color: var(--night-rider);
     transition: var(--transition);
+    margin-left: 10px;
 }
 .btn-white:hover{
     background: transparent;
@@ -813,7 +816,7 @@ h1.likert-header {
       
   .gallery-cell {
     width: 28%;
-    height: 80vh;
+    height: 100vh;
     display: inline-block;
     margin-right: 10px;
     overflow: hidden;

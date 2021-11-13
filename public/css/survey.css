@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 0.6rem 0!important;
     line-height: 1.25!important;
     font-weight: 400!important;
-    text-transform: capitalize!important;
+    
 }
 .text{
     margin: 0.6rem 0!important;
@@ -142,16 +142,15 @@ section{
     color: #00aeef!important;
 }
 .nav-link2{
-    text-transform: uppercase!important;
     font-size: 0.95rem!important;
     letter-spacing: 1.5px!important;
     font-weight: bold!important;
-    opacity: 1!important;
+    opacity:1 !important;
     transition: var(--transition)!important;
-    color: rgb(240, 105, 184)!important;
+    color: rgb(245, 35, 157)!important;
 }
 .nav-link2:hover{
-    color: red!important;
+    color: rgb(255, 0, 0)!important;
 }
 .navbar-collapse{
     display: none!important;
@@ -174,6 +173,7 @@ section{
     margin-top: 2.8rem!important;
     margin: 0 auto!important;
     display: block!important;
+    margin-top: 40px!important;
 }
 .hero-btns button{
     border: 3.5px solid #fff!important;
@@ -195,6 +195,7 @@ section{
     background: #fff!important;
     color: var(--night-rider)!important;
     transition: var(--transition)!important;
+    margin-left: 10px!important;
 }
 .btn-white:hover{
     background: transparent!important;

@@ -52,6 +52,10 @@ $(document).ready(function () {
         }
     });
 
+    $("#owl-demo").owlCarousel({
+        navigation : true
+      });
+
     // faq accordion
     $('.faq-head').each(function () {
         $(this).click(function () {
