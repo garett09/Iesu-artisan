@@ -498,7 +498,7 @@ section{
 }
 .testimonial .title h2,
 .testimonial .title{
-    color: #fff!important;
+    color: rgb(255, 255, 255)!important;
 }
 .testimonial .row{
     margin-top: 2rem!important;
@@ -849,3 +849,4 @@ h1.likert-header {
     }
 
 }
+
