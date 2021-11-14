@@ -38,8 +38,10 @@
     />
     <!-- animate css -->
     <link rel="stylesheet" href="resources/resources/animate.css-main/animate.css" />
+     <!-- DataTable css -->
+     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css"/>
     <!-- custom (main) css -->
-    <link rel="stylesheet" href="css/survey.css" />  
+    <link rel="stylesheet" href="css/viewing.css" />  
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   </head>
   <body>
@@ -50,12 +52,22 @@
         <div class="container">
           <div class="brand-and-toggler">
             <a href="/" class="navbar-brand"> IESU ARTISAN  </a>
+            
+              <div>
+               
             </div>
-            <a href="/" class="nav-link">HOME</a>
-
+            <div class="navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="/" class="nav-link">HOME</a>
+                </li>
+              </ul>
+              </div>
         </div>
       </div>
-      </nav>
+      </div>
+    </nav>
+  
        <!-- end of header -->
         <!-- survey -->
        
@@ -68,13 +80,14 @@
                 <br>
                 
               </h2>
-              <table class="table">
+              <table id="example" class="display" style="width:100%">
+             
                 <thead>
                   <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">How will you rate the products you received?</th>
-                    <th scope="col">How satisfied are you with our products?</th>
-                    <th scope="col">How satisfied are you with the service provided?</th>
+                    <th scope="col" class="th-sm">ID</th>
+                    <th scope="col" class="th-sm">How will you rate the products you received?</th>
+                    <th scope="col" class="th-sm">How satisfied are you with our products?</th>
+                    <th scope="col" class="th-sm">How satisfied are you with the service provided?</th>
                    
                   </tr>
                 </thead>
@@ -89,25 +102,22 @@
                     </tr>
                     <% } %>
                 </tbody>
+                <tfoot>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">How will you rate the products you received?</th>
+                    <th scope="col">How satisfied are you with our products?</th>
+                    <th scope="col">How satisfied are you with the service provided?</th>
+                   
+                  </tr>
+                </tfoot>
               </table>
-            
+
+
               
             </div>
           
           </div>
-          <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-end">
-              <li class="page-item disabled">
-                <a class="page-link">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
           
         </section>
         <!-- end of survey section -->
@@ -124,7 +134,9 @@
       <!-- end of footer -->
   
       <!-- jQuery -->
-      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <!-- DataTable -->
+      <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
       <!-- magnific popup -->
       <script defer src="resources/resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
       <!-- owl carousel -->
@@ -135,7 +147,7 @@
       <!-- custom js -->
       <script src="js/script.js"></script>
 
-     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     </body>
