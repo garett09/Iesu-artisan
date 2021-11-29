@@ -87,7 +87,7 @@ section{
 
 /* header */
 .header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg.jpg);*/
     min-height: 900px;
     background-position: center;
     background-size: cover;
@@ -816,7 +816,7 @@ h1.likert-header {
       
   .gallery-cell {
     width: 28%;
-    height: 70vh;
+    height: 80vh;
     display: inline-block;
     margin-right: 10px;
     overflow: hidden;
