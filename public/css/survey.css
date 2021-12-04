@@ -85,7 +85,7 @@ section{
 /* header */
 .header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg.jpg) !important;
-    min-height: 900px !important;
+    min-height: 100px !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
