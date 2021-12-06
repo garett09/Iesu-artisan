@@ -2,7 +2,7 @@
 
 ## Project description
 
-- A dynamic website that features semi-like e-commerce functionality. Utilizing Gerrit Code Review for our version control system.
+- A dynamic website that features a feedback system for the users who wants to rate their products. Utilizing Gerrit Code Review for our version control system.
 
 ## Project Members
 
@@ -13,6 +13,14 @@
 - **Requirements Analyst** : _Derick De Jesus._
 
 ## Changelog | Documentation
+
+- [v1.0.1]: _Initial release._
+
+- On **November 2021**, The backend was finished and the website is now live.
+
+- On **October 2021**, The Front end design was finished.
+
+- On **21 September 2021**, The group had finalized the mockup of the website and has been presented to the client.
 
 - On **15 September 2021**, The group have finalized the version 2 prototype that was presented to the client. We now have a verbal consent regarding the approval, however the group must still create an agreement form the will be given to the client.
 
